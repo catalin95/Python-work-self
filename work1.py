@@ -1,5 +1,3 @@
-a = [1,4,17,3,90,79,4,6,81]
-
 def find_integer(array, x):   # A simple function for finding any position on which any integer 'x' is located in anny array 'a'
 	if x in array:
 		i =  array.index(x)
@@ -7,9 +5,6 @@ def find_integer(array, x):   # A simple function for finding any position on wh
 	else:
 		print ('That integer is not in the array')
 
-find_integer(a, 17)
-
-b = [1,3,4,4,6,17,79,81,90]
 
 def binary_search(array, l, r, x):
 	if r >= l:
@@ -25,9 +20,6 @@ def binary_search(array, l, r, x):
 			#print binary_search(array, mid + 1, r, x)
 	else:
 		retun -1
-
-binary_search(b, 0, len(b) - 1, 17)
-# print (0 + (9 - 1) / 2)
 
 
 
