@@ -8,10 +8,3 @@ def combine(x, y):   # A function for concatenating 2 lists
 	else:
 		return x + y
 
-a = []
-b = []
-
-combine(a, b)
-
-temp = combine(a, b)
-print temp
