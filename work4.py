@@ -1,4 +1,4 @@
-class Stack:
+class Stack:  # new class for creating stack object
 
 	def __init__(self):
 		self.stack = []
@@ -10,27 +10,27 @@ class Stack:
 		else:
 			print ('The item is already in the stack')
 
-	def remove(self):
+	def remove(self):	# function to remove items
 		if not self.stack:
 			print ('The stack is empty')
 		else:
 			return self.stack.remove(self.stack[-1])
 
-	def print_last_element(self):
+	def print_last_element(self):	# function to print last element
 		if not self.stack:
 			print ('The stack is empty')
 		else:
 			print (self.stack[-1])
 			return True
 
-	def print_stack(self):
+	def print_stack(self):		# function to print the stack
 		if not self.stack:
 			print ('The stack is empty')
 		else:
 			print (self.stack)
 			return True
 
-	def chek_item(self, item):
+	def chek_item(self, item):	# function to check a specifi item if it is in the stack
 		if not self.stack:
 			print ('The stack is empty')
 		else:
@@ -39,20 +39,4 @@ class Stack:
 
 
 
-
-AStack = Stack()
-AStack.add(1)
-AStack.add(2)
-AStack.add(3)
-AStack.add(4)
-
-AStack.print_stack()
-AStack.print_last_element()
-AStack.remove()
-AStack.print_last_element()
-AStack.print_stack()
-AStack.remove()
-AStack.print_last_element()
-AStack.print_stack()
-AStack.chek_item(10)
 
