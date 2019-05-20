@@ -6,7 +6,7 @@ def find_integer(array, x):   # A simple function for finding any position on wh
 		print ('That integer is not in the array')
 
 
-def binary_search(array, l, r, x):
+def binary_search(array, l, r, x):	# Binary search model 
 	if r >= l:
 		mid = l + (r - l) / 2  # this is the mid
 		if array[mid] == x:   # check if array[mid] is equal to the searched value
