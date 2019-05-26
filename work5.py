@@ -1,4 +1,4 @@
-class Queve:	# class for creating queve objects
+class Queve:	# class for creating queve objects, implemented as a list
 
 	def __init__(self):
 		self.queve = []
