@@ -1,4 +1,4 @@
-class Stack:  # new class for creating stack object
+class Stack:  # new class for creating stack object, implemented as an array
 
 	def __init__(self):
 		self.stack = []
