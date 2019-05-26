@@ -3,7 +3,7 @@ class Stack:  # new class for creating stack object, implemented as an array
 	def __init__(self):
 		self.stack = []
 
-	def add(self, element):
+	def add(self, element):		# Function to add elements to stak
 		if element not in self.stack:
 			self.stack.append(element)
 			return True
