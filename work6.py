@@ -1,5 +1,5 @@
-class Node:
-	def __init__(self, element):	# Class for creating linked lists
+class Node:	# Class for creating linked lists
+	def __init__(self, element):	
 		self.element = element 
 		self.next = None	# This initially point to nothing
 
