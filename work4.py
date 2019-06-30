@@ -30,12 +30,6 @@ class Stack:  # new class for creating stack object, implemented as an array
 			print (self.stack)
 			return True
 
-	def chek_item(self, item):	# function to check a specific item if it is in the stack
-		if not self.stack:
-			print ('The stack is empty')
-		else:
-			print ('The item is in the stack')
-			return item
 
 
 
