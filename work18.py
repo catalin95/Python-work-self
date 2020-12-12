@@ -1,9 +1,9 @@
 #! python3
-# Program to create a log and write to it the calling function with its arguments
+# Simple program, define binary search function, store outputed values for it in a text file and read from it previous computed values
 
 from os import chdir
 
-chdir(r"D:\Stuff\Python")
+chdir(r"Path to file")
 
 class Binary(object):
 
