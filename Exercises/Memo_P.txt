@@ -1,3 +1,3 @@
-# Text file where the ouputed values of binary_search function are written(Work3.py)
+# Text file where the ouputed values of binary_search function are written(Binary.py)
 
 5;8;9;
