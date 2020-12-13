@@ -1,3 +1,0 @@
-# Text file where the ouputed values of binary_search function are written(work7.py)
-
-5;8;9;
