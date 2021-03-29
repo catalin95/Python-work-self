@@ -70,6 +70,19 @@ class SET(object):
                 output.append(i)
 
         return output
+    
+    
+    def cartesian_product(self, other):
+        output = SET([])
+
+        for i in self.new_set:
+            for j in other.new_set:
+                new_tuple = []
+                new_tuple.append(i)
+                new_tuple.append(j)
+                output.new_set.append(tuple(new_tuple))
+
+        return output
 
 
 
