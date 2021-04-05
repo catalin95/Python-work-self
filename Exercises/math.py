@@ -31,10 +31,3 @@ class Math(object):
                 number *= base
 
         return number
-
-    
-
-
-
-a = Math()
-print(a.exponent(4, 3))
