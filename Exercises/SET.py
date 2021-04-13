@@ -54,6 +54,11 @@ class SET(object):
 
         return output
 
+    def __add__(self, other):
+        output = self.union(other)
+
+        return output
+
     def intersection(self, other):
         output = SET([])
         for i in self.new_set:
@@ -83,6 +88,13 @@ class SET(object):
                 output.new_set.append(tuple(new_tuple))
 
         return output
+
+    def __mul__(self, other): 
+        output = self.cartesian_product(other)
+        
+        return output
+
+
 
 
 
