@@ -92,6 +92,3 @@ class Positional(object):
             last -= 1
 
         return new_number
-
-
-
