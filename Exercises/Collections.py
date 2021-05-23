@@ -11,24 +11,24 @@ class Stack(object):
 			self.stack.append(element)
 			return True
 		else:
-			print ('The item is already in the stack')
+			print('The item is already in the stack')
 
 	def remove(self):	
 		if not self.stack:
-			print ('The stack is empty')
+			print('The stack is empty')
 		else:
 			return self.stack.remove(self.stack[-1])
 
 	def print_last_element(self):	
 		if not self.stack:
-			print ('The stack is empty')
+			print('The stack is empty')
 		else:
-			print (self.stack[-1])
+			print(self.stack[-1])
 			return True
 
 	def print_stack(self):		
 		if not self.stack:
-			print ('The stack is empty')
+			print('The stack is empty')
 		else:
 			print (self.stack)
 			return True
@@ -51,14 +51,14 @@ class Queve(object):
 
 	def print_first_item(self):	
 		if not self.queve:
-			print ('The queve is empty')
+			print('The queve is empty')
 		else:
-			print (self.queve[0])
+			print(self.queve[0])
 			return True
 
 	def print_queve(self):
 		if not self.queve:
-			print ('The queve is empty')
+			print('The queve is empty')
 		else:
 			print (self.queve)
 			return True
@@ -76,15 +76,15 @@ class Node(object):
 			print ('The list is empty')
 		else:
 			while self:
-				print (self.element)	
+				print(self.element)	
 				self = self.next
 	
 	def get_next_item(self):
 		if not self:
-			print ('The linked list is empty')
+			print('The linked list is empty')
 		else:
 			self = self.next 
-			print self.element
+			print(self.element)
 
 	def print_remaim(self):
 		if not self:
