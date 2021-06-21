@@ -9,7 +9,7 @@ class Math(object):
         if (number < 0):
             print("Please provide only positive numbers!")
             return
-            
+
         initial = 1
         counter = 0
         while initial != number:
@@ -17,7 +17,7 @@ class Math(object):
             if (initial > number):
                 print("Not implemented behaviour, please give a valid base and number!")
                 return
-            else: 
+            else:
                 counter += 1
 
         return counter
@@ -31,3 +31,6 @@ class Math(object):
                 number *= base
 
         return number
+
+
+        
