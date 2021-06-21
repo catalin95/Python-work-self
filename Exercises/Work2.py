@@ -1,10 +1,6 @@
 #! Python3
 # Function for conbining 2 lists
-
-class A(object):
-
-	def __init__(self, x):
-		self.x = x
+	
 
 	def combine(x, y):
 		if not x and y:
