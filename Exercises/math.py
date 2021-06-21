@@ -31,6 +31,3 @@ class Math(object):
                 number *= base
 
         return number
-
-
-        
